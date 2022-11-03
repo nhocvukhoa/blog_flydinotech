@@ -1,0 +1,35 @@
+.admin-news-form {
+    .image-upload {
+        input {
+            display: none;
+        }
+        label {
+            background-color: #F0F0F0;
+            width: 85%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+            border: 1px dashed #000;
+            text-transform: capitalize;
+        }
+    }
+    .previewImg {
+        width: 80%;
+    }
+}
+
+.news-view {
+    .form-search-news {
+        .btn-search-news {
+            font-size: 16px;
+        }
+        @media (max-width: 768px) {
+            .title, .status {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

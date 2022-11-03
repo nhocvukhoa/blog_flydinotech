@@ -1,0 +1,31 @@
+.contact-us {
+    .container {
+        position: relative;
+        label {
+            font-size: large;
+            font-weight: 700;
+        }
+        textarea {
+            height: 130px;
+        }
+        button {
+            width: 30%;
+            height: 50px;
+            font-size: large;
+            align-items: center;
+        }
+        .image-contact {
+            width: 100%;
+            height: auto;
+        }
+        .text-contact {
+            padding-top: 20px;
+            align-items: center;
+        }
+        .button-contact {
+            margin-top: 10px;
+            align-items: center;
+            float: right;
+        }
+    }
+}

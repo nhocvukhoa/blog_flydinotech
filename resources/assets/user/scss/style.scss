@@ -1,0 +1,390 @@
+.page-footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    .container {
+        width: 100%;
+        max-width: 1130px;
+        padding: 0 15px;
+        margin: 0 auto;
+        position: relative;
+        color: #222;
+        .footer-wrapper {
+            margin-top: 15px;
+            border-top: 5px solid #e5e5e5;
+            font-size: 15px;
+            .footer-top {
+                display: flex;
+                padding: 20px 0;
+                .list-menu-footer {
+                    width: 170px;
+                    padding-right: 30px;
+                    margin-bottom: 0;
+                    position: relative;
+                    &:first-of-type {
+                        font-weight: bold;
+                        padding-left: 0;
+                        .item-menu a:hover:before {
+                            height: 2px;
+                        }
+                        .item-menu:nth-child(6) {
+                            padding-top: 15px;
+                            border-top: 1px solid #e5e5e5;
+                        }
+                    }
+                    &:nth-child(2) {
+                        width: 680px;
+                        column-count: 4;
+                    }
+                    .item-menu {
+                        width: 100%;
+                        margin-bottom: 15px;
+                        list-style-type: none;
+                        a {
+                            color: inherit;
+                            text-decoration: none;
+                            position: relative;
+                            display: inline-block;
+                            &:hover:before {
+                                content: "";
+                                width: 100%;
+                                height: 1px;
+                                background: #222;
+                                position: absolute;
+                                left: 0;
+                                bottom: -1px;
+                            }
+                        }
+                    }
+                }
+                .footer-contact {
+                    width: 250px;
+                    position: relative;
+                    &:before {
+                        content: "";
+                        width: 1px;
+                        height: 100%;
+                        position: absolute;
+                        left: -15px;
+                        background: #e5e5e5;
+                    }
+                    .contact-wrapper {
+                        padding: 16px 0px 0px 24px;
+                        .phone-application {
+                            font-size: 16px;
+                            p {
+                                text-transform: uppercase;
+                                font-weight: 700;
+                                margin-bottom: 0;
+                            }
+                            .download-app {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 27px 0px 20px 0px;
+                                .link-download {
+                                    a {
+                                        text-decoration: none;
+                                        .app-google {
+                                            width: 120px;
+                                            height: 36px;
+                                        }
+                                        .app-apple {
+                                            width: 120px;
+                                            height: 39px;
+                                            margin-top: 20px;
+                                        }
+                                    }
+                                }
+                                .qr-code {
+                                    width: 90px;
+                                    height: 91px;
+                                }
+                            }
+                        }
+                        .social {
+                            font-size: 16px;
+                            p {
+                                text-transform: uppercase;
+                                font-weight: 700;
+                                margin-bottom: 0;
+                            }
+                            .list-social {
+                                display: flex;
+                                a {
+                                    text-decoration: none;
+                                    margin-top: 28px;
+                                    .fa-facebook-f, .fa-twitter, .fa-youtube {
+                                        color: #000;
+                                        font-size: 22px;
+                                        margin-right: 24px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-bottom {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 0;
+                border-top: 1px solid #bdbdbd;
+                .logo {
+                    text-decoration: none;
+                    img {
+                        width: 50px;
+                    }
+                }
+                .about-us {
+                    display: flex;
+                    .list-about-us {
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        list-style-type: none;
+                        margin-bottom: 0;
+                        .item-menu {
+                            margin-right: 18px;
+                            &:last-child {
+                                margin-right: 0px;
+                            }
+                            a {
+                                color: #222;
+                                font-weight: 500;
+                                text-decoration: none;
+                            }
+                            .dmca-protected {
+                                width: 120px;
+                            }
+                            .copy-right {
+                                margin-bottom: 0;
+                                padding-right: 30px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-v2 {
+                display: none;
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        .container {
+            .footer-wrapper {
+                .footer-top {
+                    flex-wrap: wrap;
+                    .list-menu-footer {
+                        &:nth-child(1), &:nth-child(2) {
+                            margin-bottom: 10px;
+                        }
+                        &:nth-child(1) {
+                            width: 25%;
+                        }
+                        &:nth-child(2) {
+                            width: 75%;
+                            padding: 0;
+                        }
+                    }
+                    .footer-contact {
+                        width: 100%;
+                        text-align: center;
+                        display: flex;
+                        &:before {
+                            display: none;
+                        }
+                        .contact-wrapper {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            padding: 0px;
+                            .phone-application {
+                                margin-right: 40px;
+                                .download-app {
+                                    justify-content: center;
+                                    .link-download {
+                                        width: 120px;
+                                        margin-right: 20px;
+                                    }
+                                }
+                            } 
+                        }
+                        .social {
+                            .list-social {
+                                justify-content: center;
+                            }
+                        }
+                    }
+                }
+                .footer-bottom {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        .container {
+            .footer-wrapper {
+                .footer-top {
+                    .list-menu-footer {
+                        &:nth-child(2) {
+                            column-count: 3;
+                        }
+                    }
+                    .footer-contact {
+                        .qr-code {
+                            margin-top: 0;
+                        }
+                    }
+                }
+                .footer-bottom {
+                    .list-about-us {
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 480px) {
+        #footer {
+            padding: 0 20px 20px 20px;
+            .footer-wrapper {
+                border-top: none;
+                margin-top: none;
+                .footer-top, .footer-bottom {
+                    display: none;
+                }
+                .footer-v2 {
+                    display: block;
+                    width: 100%;
+                    background: #fff;
+                    font-size: 14px;
+                    .grid-title {
+                        color: #757575;
+                        font-weight: 500;
+                        margin-bottom: 0;
+                    } 
+                    .menu-grid {
+                        width: 100%;
+                        padding-top: 24px;
+                        position: relative;
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            background: #bdbdbd;
+                            width: 100%;
+                            height: 1px;
+                            top: -1px;
+                        }
+                        .menu-grid-content {
+                            display: flex;
+                            flex-wrap: wrap;
+                            .item-menu {
+                                text-decoration: none;
+                                width: 50%;
+                                border-bottom: 1px solid #e5e5e5;
+                                padding: 18px 0 18px 12px;
+                                font-size: 18px;
+                                font-weight: 600;
+                                color: #222;
+                            }
+                        }
+                    }
+                    .app-info {
+                        padding: 24px 0 24px 0;
+                        border-top: 1px solid #BDBDBD;
+                        .link {
+                            display: flex;
+                            margin-top: 18px;
+                            a {
+                                text-decoration: none;
+                                .app-google, .app-apple {
+                                    width: 120px;
+                                    height: 36px;
+                                }
+                                .app-apple {
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                    .contact-info {
+                        padding: 24px 0 24px 0;
+                        border-top: 1px solid #BDBDBD;
+                        .list-social {
+                            display: flex;
+                            a {
+                                text-decoration: none;
+                                margin-top: 18px;
+                                .fa-facebook-f, .fa-twitter, .fa-youtube {
+                                    color: #000;
+                                    font-size: 24px;
+                                    margin-right: 24px;
+                                }
+                            }
+                        }
+                    }
+                    .copyright {
+                        text-align: center;
+                        padding: 10px 0 10px 0;
+                        border-top: 1px solid #BDBDBD;
+                        font-weight: 500;
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 320px) {
+        #footer {
+            .footer-wrapper {
+                .footer-v2 {
+                    .app-info {
+                        .link {
+                            a {
+                                text-decoration: none;
+                                .app-google, .app-apple {
+                                    width: 110px;
+                                    height: 36px;
+                                }
+                                .app-apple {
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 280px) {
+        #footer {
+            .footer-wrapper {
+                .footer-v2 {
+                    .app-info {
+                        .link {
+                            flex-direction: column;
+                            a {
+                                text-decoration: none;
+                                .app-google, .app-apple {
+                                    width: 130px;
+                                    height: 38px;
+                                }
+                                .app-apple {
+                                    margin: 14px 0 0 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

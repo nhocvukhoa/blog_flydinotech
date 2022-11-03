@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Về chúng tôi",
+        "content": "Mọi thắc mắc vui lòng liên hệ",
+        "type": "0",
+        "status": "0",
+        "deleted_at": null
+    },
+    {
+        "title": "Quy chế hoạt động",
+        "content": "Nội dung quy chế hoạt động",
+        "type" : "1",
+        "status" : "0",
+        "deleted_at" : null
+    }
+]

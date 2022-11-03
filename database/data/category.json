@@ -1,0 +1,294 @@
+[
+    {
+        "title": "Bóng đá",
+        "description": "Bóng đá",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Bong-da",
+        "order_by": "1"
+    },
+    {
+        "title": "Luật pháp",
+        "description": "Luật pháp",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Luat-phap",
+        "order_by": "2"
+    },
+    {
+        "title": "Thời sự",
+        "description": "Thời sự",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Thoi-su",
+        "order_by": "3"
+    },
+    {
+        "title": "Thế giới",
+        "description": "Thế giới",
+        "status": "1",
+        "parent_id": null,
+        "slug": "The-gioi",
+        "order_by": "4"
+    },
+    {
+        "title": "Giải trí",
+        "description": "Giải trí",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Giai-tri",
+        "order_by": "5"
+    },
+    {
+        "title": "Giáo dục",
+        "description": "Giáo dục",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Giao-duc",
+        "order_by": "6"
+    },
+    {
+        "title": "Sức khỏe",
+        "description": "Sức khỏe",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Suc-khoe",
+        "order_by": "7"
+    },
+    {
+        "title": "Đời sống",
+        "description": "Đời sống",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Doi-song",
+        "order_by": "8"
+    },
+    {
+        "title": "Du lịch",
+        "description": "Du lịch",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Du-lich",
+        "order_by": "9"
+    },
+    {
+        "title": "Hài",
+        "description": "Hài",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Hai",
+        "order_by": "10"
+    },
+    {
+        "title": "Xe",
+        "description": "Xe",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Xe",
+        "order_by": "11"
+    },
+    {
+        "title": "Công nghệ thông tin",
+        "description": "Công nghệ thông tin",
+        "status": "1",
+        "parent_id": null,
+        "slug": "Cpng-nghe-thong-tin",
+        "order_by": "12"
+    },
+
+    {
+        "title": "Ngoại hạng anh",
+        "description": "Ngoại hạng anh",
+        "status": "1",
+        "parent_id": "1",
+        "slug": "Ngoai-hang-anh",
+        "order_by": "13"
+    },
+    {
+        "title": "C1",
+        "description": "C1",
+        "status": "1",
+        "parent_id": "1",
+        "slug": "C1",
+        "order_by": "14"
+    },
+    {
+        "title": "Hồ sơ phá án",
+        "description": "Hồ sơ phá án",
+        "status": "1",
+        "parent_id": "2",
+        "slug": "Ho-so-pha-an",
+        "order_by": "15"
+    },
+
+    {
+        "title": "Tư vấn",
+        "description": "Tư vấn",
+        "status": "1",
+        "parent_id": "2",
+        "slug": "Tu-van",
+        "order_by": "16"
+    },
+
+    {
+        "title": "Chính trị",
+        "description": "Chính trị",
+        "status": "1",
+        "parent_id": "3",
+        "slug": "Chinh-tri",
+        "order_by": "17"
+    },
+    {
+        "title": "Dân sinh",
+        "description": "Dân sinh",
+        "status": "1",
+        "parent_id": "3",
+        "slug": "Dan-sinh",
+        "order_by": "18"
+    },
+
+    {
+        "title": "Quân sự",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "4",
+        "slug": "Quan-su",
+        "order_by": "19"
+    },
+    {
+        "title": "Tư liệu",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "4",
+        "slug": "Tu-lieu",
+        "order_by": "20"
+    },
+    {
+        "title": "Thời trang",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "5",
+        "slug": "Thoi-trang",
+        "order_by": "21"
+    },
+    {
+        "title": "Làm đẹp",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "5",
+        "slug": "Lam-dep",
+        "order_by": "22"
+    },
+    {
+        "title": "Tuyển sinh",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "6",
+        "slug": "Tuyen-sinh",
+        "order_by": "23"
+    },
+    {
+        "title": "Du học",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "6",
+        "slug": "Du-hoc",
+        "order_by": "24"
+    },
+    {
+        "title": "Dinh dưỡng",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "7",
+        "slug": "Dinh-duong",
+        "order_by": "25"
+    },
+    {
+        "title": "Các bệnh",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "7",
+        "slug": "Cac-benh",
+        "order_by": "26"
+    },
+    {
+        "title": "Nhà",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "8",
+        "slug": "Nha",
+        "order_by": "27"
+    },
+    {
+        "title": "Cooking",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "8",
+        "slug": "Cooking",
+        "order_by": "28"
+    },
+    {
+        "title": "Điểm đến",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "9",
+        "slug": "Diem-den",
+        "order_by": "29"
+    },
+    {
+        "title": "Ảnh",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "9",
+        "slug": "Anh",
+        "order_by": "30"
+    },
+    {
+        "title": "Truyện cười",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "10",
+        "slug": "Truyen-cuoi",
+        "order_by": "31"
+    },
+    {
+        "title": "Video",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "10",
+        "slug": "Video",
+        "order_by": "32"
+    },
+    {
+        "title": "Ô tô",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "11",
+        "slug": "O-to",
+        "order_by": "33"
+    },
+    {
+        "title": "Xe máy",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "11",
+        "slug": "Xe-may",
+        "order_by": "34"
+    },
+    {
+        "title": "Trong nước",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "12",
+        "slug": "Trong-nuoc",
+        "order_by": "35"
+    },
+    {
+        "title": "Ngoài nước",
+        "description": "Tư liệu",
+        "status": "1",
+        "parent_id": "12",
+        "slug": "Ngoai-nuoc",
+        "order_by": "36"
+    }
+]

@@ -1,0 +1,91 @@
+.admin-post {
+    #message-post {
+        display: none;
+    }
+    .card {
+        width: 100%;
+    }
+    .page-item {
+        width: 100%;
+    }
+    .search-post {
+        .search-post-form {
+            font-size: 14px;
+            width: 100%;
+            margin-left: 0px;
+            .category-post {
+                .select2 {
+                    width: 100% !important;
+                }
+                .select2-selection--single {
+                    border: 1px solid #DFE3E7;
+                }
+            }
+            .status-post {
+                .custom-select-lg {
+                    font-size: 14px;
+                    height: 38px;
+                }
+            }
+            .btn-search {
+                width: 100%;
+            }
+        }
+    }
+    .admin-post-add {
+        .image-upload {
+            input {
+                display: none;
+            }
+            label {
+                background-color: #F0F0F0;
+                width: 85%;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                margin: auto;
+                border: 1px dashed #000;
+                text-transform: capitalize;
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        .search-post {
+            .search-post-form {
+                .user-post,
+                .category-post,
+                .create-date-post,
+                .status-post,
+                .search-post {
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .search-post {
+            .search-post-form {
+                flex-direction: column;
+                .btn-search {
+                    margin-top: 10px;
+                }
+            }
+        }
+        li.page-item {
+            display: none;
+        }
+        .page-item:first-child,
+        .page-item:nth-child( 2 ),
+        .page-item:nth-last-child( 2 ),
+        .page-item:last-child,
+        .page-item.active,
+        .page-item.disabled {
+            display: block;
+        }
+    }
+}
+.ck-editor__editable_inline {
+    min-height: 400px;
+}

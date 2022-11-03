@@ -1,0 +1,28 @@
+.profile-admin {
+    #message-profile {
+        display: none;
+    }
+    .avatar-admin {
+        .avatar-preview {
+            img {
+                width: 200px;
+                height: 200px;
+                padding: 10px;
+                border: 2px solid rgb(11, 104, 210);
+                border-radius: 100%;
+                z-index: 0;
+            }
+        }
+        .avatar-file {
+            .avatar-file-label {
+                padding: 5px 10px;
+                font-size: 14px;
+                z-index: 1;
+                position: absolute;
+                top: 190px;
+                border: 1px solid #000;
+                border-radius: 10px;
+            }
+        }
+    }
+}

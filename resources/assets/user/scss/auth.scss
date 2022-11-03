@@ -1,0 +1,184 @@
+.auth-user {
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    a {
+        text-decoration: none;
+    }
+    .login-validation {
+        width: 50%;
+        height: 100vh;
+        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+        .login-form {
+            padding-right: 3rem;
+            padding-left: 3rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .another-login {
+                a {
+                    text-decoration: none;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    .icon-fa {
+                        padding: 5px;
+                        border-radius: 100px;
+                        border: 1px solid #fff;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+                    }
+                    span {
+                        margin-left: 10px;
+                    }
+                }
+                .btn-primary {
+                    background-color: #3B5998;
+                }
+                .twitter {
+                    background-color: #0D6EFD;
+                    .fa-twitter {
+                        background-color: white;
+                    }
+                    span {
+                        color: #fff;
+                    }
+                }
+            }
+            .form-group {
+                margin-bottom: 15px;
+                .form-control {
+                    padding: 15px auto;
+                }
+                #icon-arrow {
+                    position: absolute;
+                    top: 11px;
+                    right: 15px;
+                }
+            }
+        }
+    }
+    .register-validation {
+        width: 35%;
+        margin: 50px auto;
+        .register-form {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            .form-group {
+                margin-bottom: 15px;
+                .form-control {
+                    padding: 15px auto;
+                }
+                .check-terms {
+                    height: 12px;
+                    margin-top: 5px;
+                }
+            }
+        }
+        .another-login {
+            a {
+                border: 1px solid #d3d1d1;
+                text-decoration: none;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                i {
+                    font-size: 20px;
+                    margin: auto 20px;
+                }
+                .fa-facebook-f {
+                    color: #455B95;
+                    
+                }
+                .fa-google {
+                    color: red;
+                    
+                }
+                .fa-github {
+                    color: #000;
+                    
+                }
+                .fa-twitter {
+                    color: #0D6EFD;
+                }
+                .icon-fa {
+                    margin-right: 10px;
+                }
+            }
+            a:hover {
+                background-color: #3D8BFD;
+                color: #fff;
+                .icon-fa {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    @media (max-width: 1374px) {
+        .login-validation {
+            width: 60%;
+        }
+    }
+    @media (max-width: 1220px) {
+        .register-validation {
+            width: 60%;
+        }
+    }
+    @media (max-width: 1199px) {
+        .login-validation {
+            width: 75%;
+        }
+    }
+    @media (max-width: 991px) {
+        .login-validation,
+        .register-validation {
+            width: 85%;
+        }
+    }
+    @media (max-width: 839px) {
+        .login-validation {
+            .another-login {
+                .row {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    @media (max-width: 739px) {
+        .register-validation {
+            width: 80%;
+            .another-login {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    @media (max-width: 540px) {
+        .register-validation {
+            width: 90%;
+            .icon {
+                width: 30%;
+            }
+            .another-login {
+                .row {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    @media (max-width: 480px) {
+        .login-validation {
+            width: 90%;
+            .login-form {
+                padding-right: 20px;
+                padding-left: 20px;
+                .another-login {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

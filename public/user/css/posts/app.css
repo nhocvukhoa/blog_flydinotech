@@ -1,0 +1,19 @@
+.admin-post .admin-post-add .image-upload input {
+  display: none;
+}
+.admin-post .admin-post-add .image-upload label {
+  background-color: #F0F0F0;
+  width: 85%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  border: 1px dashed #000;
+  text-transform: capitalize;
+}
+
+.ck-editor__editable_inline {
+  min-height: 400px;
+}
